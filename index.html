@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRVoid - High Quality Roblox Scripts</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loader-content">
+            <h1 class="loader-title">TRVoid</h1>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+            <p class="loader-text">Loading...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="PSX_20251228_145637.png" alt="TRVoid Logo" style="height: 40px; border-radius: 5px;">
+                <span>TRVoid</span>
+            </a>
+            <div class="nav-links">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#scripts" class="nav-link">Scripts</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#community" class="nav-link">Community</a>
+            </div>
+            <button id="theme-toggle" class="theme-btn" title="Toggle Dark/Light Mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="pulse"></span>
+                TRVoid
+            </div>
+            <h1 class="hero-title">
+                Elevate Your Roblox <br>
+                <span class="text-gradient">Experience</span>
+            </h1>
+            <p class="hero-description">
+                Access the most advanced, safe, and high-performance Roblox scripts completely free.
+                Dominate your favorite games now.
+            </p>
+            <div class="hero-buttons">
+                <a href="#scripts" class="cta-button primary">
+                    Explore Now <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#community" class="cta-button secondary">
+                    Join Discord
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="section-header">
+            <h2>Why TRVoid?</h2>
+            <p>Everything you need for the best gaming experience.</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="icon-box">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h3>High Performance</h3>
+                <p>Optimized code that runs smoothly on any device. Maximum FPS, minimum lag.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-box">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Safe & Secure</h3>
+                <p>Our scripts are regularly tested and protected against anti-cheat systems.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-box">
+                    <i class="fas fa-sync-alt"></i>
+                </div>
+                <h3>Constant Updates</h3>
+                <p>We quickly update our scripts when games are patched or updated.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts Section -->
+    <section id="scripts" class="scripts">
+        <div class="section-header">
+            <h2>Our Scripts</h2>
+            <p>The most popular free scripts for you.</p>
+        </div>
+        <div id="scripts-container" class="scripts-grid">
+            <!-- Scripts will be loaded here via JS -->
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="community">
+        <div class="community-content">
+            <h2>Join Our Community</h2>
+            <p>Join our Discord server for help, requests, and new announcements.</p>
+            <a href="https://discord.gg/x6qmyAt2" class="discord-button">
+                <i class="fab fa-discord"></i>
+                Join Discord Server
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span>TRVoid</span>
+                <p class="copyright">© 2025 TRVoid. All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script Modal -->
+    <div id="script-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 id="modal-title">Script Title</h3>
+            <div class="code-container">
+                <textarea id="modal-code" readonly spellcheck="false"></textarea>
+            </div>
+            <button id="modal-copy-btn" class="cta-button primary full-width">
+                <i class="far fa-copy"></i> Copy Script
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
