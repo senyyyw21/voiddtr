@@ -105,7 +105,7 @@ const scripts = [
         code: 'loadstring(game:HttpGet("https://trvoidd.netlify.app/scripts/brm5.lua"))()',
 
         // CHANGE STATUS HERE ('working', 'patched', 'maintenance')
-        status: 'working'
+        status: 'maintenance'
     },
     {
         id: 2,
